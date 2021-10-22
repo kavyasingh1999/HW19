@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <title></title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="/resources/demos/style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+    </head>
+    <body>
+      <header class="nav">
+        <div class="logo inline-block">
+            <img src="images/logo.png" alt="Logo">
+        </div>
+        <nav class="inline-block">
+            <ul>
+                <li class="inline-block"><a href="#">About</a></li>
+                <li class="inline-block"><a href="#">Projects</a></li>
+                <li class="inline-block"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+         <!--  My UX Skills section coded using CSS flex -->
+        <section class="mySkills">
+            <h1 id="skills">My UX Skills
+            </h1>
+            <div class="flexContainer" id="skillClose"> 
+                <div> 
+                    <img src="images/figma.png" alt="Figma">
+                    <h3>Figma allows for wireframing and prototyping webistes and apps to create a model of a user's experience. Figma was a great tool to be able to collaborate with my team, so we could each work on different aspects of case stuidies and other projects.  </h3>
+                    <p>I have learned Figma through working on several case stuides, with each one I leanred more tips and tricks thorugh several iterations of designing and prototyping. </p>
+                </div>
+                <div>
+                    <img src="images/miro.png" alt="Miro">
+                    <h3>Miro allows for online team collaberwation, including brain storming, designing, and organizing date from research.</h3>
+                    <p>While usuing Miro my teams and I developed a very organized way of information flow. Being able to organize information and insights into diagrams that help visualize and progress our work. </p>
+                </div>
+                <div>
+                    <img src="images/jira.png" alt="Jira">
+                    <h3>Project management software tool</h3>
+                    <p>Jira is a project managment tool that has allowed to complete agile projects.</p>
+                </div>
+            </div>
+        </section> 
+        <!-- My Work Section Constructed using CSS Grid --> 
+        <section class="myWork">
+            <h1 id="work"> Resume </h1>
+            <div class="workGrid" id="workClose"> 
+                <div>
+                    <img>
+                </div>
+                <div> 
+                    <h4></h4>
+                    <p></p>
+                    <button></button>
+                </div>
+                <div>
+                    <img>
+                </div>
+                <div> 
+                    <h4></h4>
+                    <p></p>
+                    <button></button>
+                </div>
+            </div>
+            <h3>View all projects</h3>
+
+        </section> 
+        <section class="heroImg">
+            <div class="content">
+                <img src="images/new pic.jpg">
+                <p>With my background in understanding human behavior, 
+                    I focus my time on understanding how humans interact with technology and how I am able to affect their experience on a website. 
+                </p> 
+                <button>Download Resume</button>
+            </div>
+<!-- Iteration 2, added tabs for projects after user testing-->
+            <div id="tabs">
+                <ul>
+                  <li><a href="#tabs-1">CDC Foundation Redesign</a></li>
+                  <li><a href="#tabs-2">USDA Redesign</a></li>
+                  <li><a href="#tabs-3">GRN Box App</a></li>
+                </ul>
+                <div id="tabs-1">
+                  <p>Worked in a team of five to redesign CDC Foundation’s website, focusing on navigational elements and information architecture. Took initiative to create prototypes that allow the user to easily navigate through the website. </p>
+                </div>
+                <div id="tabs-2">
+                  <p>In order to improve the navigation of the overcomplicated website of the USDA, there was need for a complete website design to not only simplify the navigation but to better embody the mission of the USDA. </p>
+                </div>
+                <div id="tabs-3">
+                  <p>When considering the extensive food wastage that occurs in the average family home, this app was designed to be able to better manage the food in your fridge. Preventing food wastage as well as saving money during grocery trips.  </p>
+                </div>
+              </div>
+            <footer>
+                <ul class="footerlist">
+                    <li class="inline-block"><a href="#">About</a></li>
+                    <li class="inline-block"><a href="#">Projects</a></li>
+                    <li class="inline-block"><a href="#">Contact</a></li>
+                </ul>
+            </footer>
+        </section> 
+      </header> 
+    </body>
+    <script src="js/index.js"> </script>
+</html>  
